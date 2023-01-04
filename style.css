@@ -1,0 +1,21 @@
+.nav-item{
+    font-size: 14px;
+    font-weight:600;
+}
+.nav-link:hover{
+    color:blueviolet;
+    
+}
+.txt{
+    font-size: 14px;
+    font-weight:300;
+    height: 35px;
+    background-color: blueviolet;
+}
+.txtdiv{
+    background-color: blueviolet;
+}
+.con{
+    margin-left: 10px;
+    padding-left: 380px;
+}
