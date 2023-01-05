@@ -17,15 +17,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="height:1500px ;">
     <div class="mb-1 txt">
         <div class="container" style="display:flex; justify-content:space-between;">
             <p class=" container txt text-white pt-2">Have any question? +91 8086 651 651</p>
-            <p class=" container txt text-white pt-2 con"><i class="fa-solid fa-phone"></i>+91 8086 651 651 <i class="fa-solid fa-envelope"></i>contact@luminartechnolab.com</p>
+            <p class=" container txt text-white pt-2 con"><i class="fa-solid fa-phone"></i>+91 8086 651 651 <i
+                    class="fa-solid fa-envelope"></i>contact@luminartechnolab.com</p>
 
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top pb-1 pt-1 ">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="Images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -58,6 +59,96 @@
             </div>
         </div>
     </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="8000">
+                <img style="height:550px;"" src=" Images/car-1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block container me-5">
+                    <h1 class=" carh1-1 pb-3">Kerala's No.1 IT Finishing School <br> 100% Placement Assistance</h1>
+                    <p class="carp-1 container pb-5 ">We at LUMINAR TECHNOLAB offers best software training and
+                        placement in
+                        emerging <br> technologies like
+                        BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+                    <button class="btn btn carbton ">VIEW COURSES</button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="8000">
+                <img style="height:550px" src="Images/car-2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block container me-5 ">
+                    <h1 class=" carh1-1 carh1-2  ">Data Science, ML &amp; AI <br> Big Data - Hadoop &amp; Spark <br>
+                        Python
+                        Data Science</h1>
+                    <p class="carp-1 carp-2 container ">We LUMINAR TECHNOLAB offers best software training and placement
+                        in
+                        emerging <br> technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep
+                        Learning
+                        and <br> AI.</p>
+                    <br><br>
+                    <button class="btn btn carbton carbton-1 btn mt-5" type="button">VIEW COURSES</button>
+
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog container w-75">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> -->
+                <div class="modal-body container w-75 ">
+                    <h6 class="pb-2">Get Training Quote for free</h6>
+                    <form action="">
+                        <input style="box-shadow:none ;" type="text" placeholder="Name" id="sn1"
+                            class=" mb-3 form-control border-0 inp ">
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="Email" id="sn1"
+                            class=" mb-3 form-control border-0">
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="Phone Number" id="sn1"
+                            class=" mb-3 form-control border-0">
+                        <hr>
+                        <select style="box-shadow:none ;" name="" id="" class="border-0">
+                            <option value=""> Select courses intrested in</option>
+                            <option value="">Data Science - ML - AI - </option>
+                            <option value="">Python Django</option>
+                            <option value="">Software testing</option>
+                            <option value="">Mearn stack</option>
+                            <option value="">Business Analytics</option>
+                            <option value="">Android Developer</option>
+                        </select>
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="City" id="sn1"
+                            class=" mb-3 form-control border-0">
+                        <hr>
+                        <textarea name="" class="form-control " id="" cols="30" rows="6"> </textarea><br> 
+                        <button class="modelbtn"> SUBMIT</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
 
