@@ -5,7 +5,6 @@
 
 .nav-link:hover {
     color: blueviolet;
-
 }
 
 .txt {
@@ -29,6 +28,11 @@
     margin-left: 250px;
     text-align: start;
     font-weight: bold;
+    
+}
+.carh1-2{
+    margin-top: 10px;
+    /* height: 193px; */
 }
 
 .carp-1 {
@@ -40,6 +44,7 @@
 
 .carp-2 {
     margin-bottom: -82px;
+    height: 9px;
 }
 
 .carbton {
@@ -77,4 +82,100 @@
 
 .modelbtn:hover {
     background-color: rgb(162, 95, 221);
+}
+
+.tgrbtn {
+    border-radius: 39px;
+    /* position: fixed;
+    top: 678px; */
+    margin-left: -61px;
+}
+
+.abtbtn {
+    background-color: blueviolet;
+    color: white;
+    width: 170px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 60px;
+    border-radius: 30px;
+    border: blueviolet 2px solid;
+}
+
+.abtbtn:hover {
+    background-color: white;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+.abth3 {
+    color: blueviolet;
+}
+
+.abth6 {
+    color: blueviolet;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.abtp {
+    font-weight: 300;
+}
+
+.coursesh3 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.corspn {
+    color: rgb(146, 102, 186);
+}
+
+.coup {
+    color: black;
+    font-size: 15px;
+    text-align: start;
+    font-weight: 300;
+}
+
+.couh5 {
+    text-align: start;
+    font-size: 20px;
+}
+
+.coudiv:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cali {
+    color: red;
+    margin-left: -196px;
+}
+
+.ispan {
+    color: black;
+    font-size: 12px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.cloi {
+    color: red;
+    margin-left: -152px;
+}
+
+.grai {
+    color: red;
+    margin-left: -346px;
+}
+
+.viewspan {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.couimg {
+    height: 350px;
 }
